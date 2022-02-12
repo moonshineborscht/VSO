@@ -1,0 +1,170 @@
+.section-1 {
+    display: flex;
+    width: 100%;
+    padding: 230px 0 60px;
+    background:
+    url('../img/background/box-yellow.png') 1240px 200px/auto auto no-repeat,
+    url('../img/background/box-grey.svg') 1175px 300px/auto auto no-repeat,
+    url('../img/background/box-purle.png') 250px 640px/auto auto no-repeat,
+    url('../img/background/box-green.png') 160px 710px/auto auto no-repeat,
+    url('../img/background/box\ pink.png') 1205px 1310px/auto auto no-repeat,
+    url('../img/background/box-green.png') 1260px 1360px/auto auto no-repeat,
+    url("../img/background/Line\ 1.png") 0 395px/auto auto no-repeat,
+    url("../img/background/Line\ 1.png") 0 500px/auto auto no-repeat,
+    url("../img/background/Line\ 2.png") 0 1030px/auto auto no-repeat,
+    url("../img/background/Line\ 2.png") 0 1135px/auto auto no-repeat,
+    linear-gradient(0.5turn, #4795fa, #0773FA);
+}
+
+.section-1 .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ссылки */
+.section-1 .container .link {
+    color: #033573;
+}
+
+.section-1 .container .link:hover {
+    color: #FFFFFF;
+}
+
+/* Блок - How to buy */
+.section-1 .container .how-to-by {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .container .how-to-by .title {
+    font-size: 51px;
+    line-height: 80px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-1 .container .how-to-by .subtitle {
+    max-width: 700px;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.section-1 .container .how-to-by .listings {
+    display: flex;
+    width: 100%;
+    max-width: 440px;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.section-1 .container .how-to-by .listings .listing-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1 .container .how-to-by .listings .listing-wrap .listing-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.section-1 .container .how-to-by .listings .listing-wrap .listing-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 179px;
+    height: 71px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.section-1 .container .how-to-by .listings .listing-wrap .pangolin {
+    background: #FF5F00;
+}
+
+.section-1 .container .how-to-by .listings .listing-wrap .listing-img img {
+    object-fit: contain;
+}
+
+.section-1 .container .how-to-by .text {
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Блок - How to add */
+.section-1 .container .how-to-add {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .container .how-to-add .title {
+    font-size: 44px;
+    line-height: 80px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-1 .container .how-to-add .listings {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.section-1 .container .how-to-add .listings .list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
+
+.section-1 .container .how-to-add .listings .list-item img {
+    margin-bottom: -155px;
+}
+
+.section-1 .container .how-to-add .listings .list-item .text {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    max-width: 367px;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 80px;
+}
+
+.section-1 .container .how-to-add .listings .list-item .text .number {
+    display: flex;
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    top: -5px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    color: #0773FA;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
